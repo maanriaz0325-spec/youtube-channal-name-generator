@@ -1,0 +1,6 @@
+{
+  "name": "YouTube Channel Name Generator",
+  "description": "A scientifically engineered generator producing highly brandable, phonetically symbolic, and abstract YouTube channel names using intelligent semantic expansion.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
