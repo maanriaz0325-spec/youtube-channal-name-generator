@@ -37,9 +37,25 @@ Return ONLY valid JSON:
       "angle": "ANGLE 1 — INSIGHT NAMES",
       "whyItWorks": "reason under 6 words",
       "overallScore": 85,
-      "memorability": 85,
-      "searchability": 80,
-      "uniqueness": 90,
+      "scoreLabel": "Excellent",
+      "scores": {
+        "memorability": 85,
+        "pronunciation": 80,
+        "scalability": 90,
+        "brandPotential": 88
+      },
+      "tests": {
+        "phoneTest": "Easy to say",
+        "thumbnailTest": "Looks great",
+        "longevityTest": "Timeless",
+        "searchTest": "Unique"
+      },
+      "availability": {
+        "handleSuggestion": "@channelname",
+        "youtubeHandleStatus": "Available",
+        "domainNote": "channelname.com available"
+      },
+      "variations": ["ChannelNameHub", "TheChannelName", "ChannelNameTV"],
       "complexityBalance": "Perfect Balance",
       "researchConnection": "connects to niche",
       "viewerThought": "viewer reaction",
