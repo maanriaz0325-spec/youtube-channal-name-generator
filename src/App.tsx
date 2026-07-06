@@ -36,6 +36,16 @@ const BANNED_WORDS_LIST = [
 ];
 
 export default function App() {
+  useEffect(() => {
+  const sendHeight = () => {
+    const height = document.body.scrollHeight;
+    window.parent.postMessage({ type: 'resize-iframe', height }, '*');
+  };
+  sendHeight();
+  const observer = new ResizeObserver(sendHeight);
+  observer.observe(document.body);
+  return () => observer.disconnect();
+}, []);
   const [userWords, setUserWords] = useState<string>("");
   const [loading, setLoading] = useState<boolean>(false);
   const [result, setResult] = useState<GeneratorResponse | null>(null);
