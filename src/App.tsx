@@ -718,8 +718,7 @@ export default function App() {
 
         {/* PAGE FOOTER - IN ROBOTO */}
         <footer className="pt-10 border-t border-slate-150 text-center pb-8 font-roboto text-slate-400 text-xs font-light">
-          <p>NameSynth Strategic Brain Engine • All phonetic and trademark algorithms comply with Crimson guidelines.</p>
-          <p className="text-[10px] text-zinc-300 mt-1">Version 5.0.0 (Stable release 2026). Made in high precision.</p>
+          
         </footer>
 
       </div>
